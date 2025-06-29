@@ -7,6 +7,9 @@ const LandingPage = () => {
     <div>
        <Navbar />
        <Products/>
+       
+       
+       
     </div>
   )
 }
