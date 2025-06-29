@@ -5,3 +5,25 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.navSection {
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	color: white;
+}
+
+.proSection {
+	display: flex;
+}
+
+.imageBox {
+	width: 80%;
+	padding: 20px;
+}
+
+.proImage {
+	width: 80%;
+}
+
