@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body{
+	background-color: aliceblue;
+}
 
 .navSection {
 	border: 1px solid black;
@@ -16,6 +19,7 @@
 
 .proSection {
 	display: flex;
+	background-color: white;
 }
 
 .imageBox {
@@ -27,3 +31,21 @@
 	width: 80%;
 }
 
+.proTitle h2 {
+	margin: 10px;
+}
+
+.subMenu ul li {
+	list-style: none;
+	margin: 26px;
+}
+
+.subMenu {
+	background-color: rgb(33, 28, 28); 
+	color: silver;
+	/* height: 50px; */
+}
+
+.subMenu ul {
+	display: inline-flex;
+}

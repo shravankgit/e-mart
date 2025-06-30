@@ -12,9 +12,9 @@ const Products = () => {
         <Mobiles />
         <Computers />
         <Watches />
-       <Woman />
-       <Ac />
        <Tv />
+       <Ac />
+       <Woman />
     </div>
   )
 }
