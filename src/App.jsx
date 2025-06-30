@@ -1,13 +1,21 @@
 import React from 'react'
+import { Routes,Route } from 'react-router-dom' 
 
 import './App.css'
 import LandingPage from './stores/pages/LandingPage'
+import Mobiles from './stores/components/Mobiles'
+
+
 
 const App = () => {
   return (
     <div>
-      {/* <h1>Welcome to E-Mart</h1> */}
-      <LandingPage/>
+      <Routes>
+          <Route path='/' element = {<LandingPage/>}/>
+          <Route path= '/abc' element = {<Mobiles />}/>
+          <Route path= '/sample' element = {<MobilePage />}/>
+      </Routes>
+
     </div>
   )
 }

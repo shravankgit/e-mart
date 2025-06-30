@@ -10,11 +10,13 @@ body{
 }
 
 .navSection {
-	border: 1px solid black;
+	border: 20px solid black;
 	display: flex;
 	justify-content: space-between;
 	background-color: black;
 	color: white;
+	/* height: 80px; */
+
 }
 
 .proSection {
@@ -38,12 +40,13 @@ body{
 .subMenu ul li {
 	list-style: none;
 	margin: 26px;
+	margin-top: 10px;
 }
 
 .subMenu {
-	background-color: rgb(33, 28, 28); 
-	color: silver;
-	/* height: 50px; */
+	background-color:gray; 
+	color: azure;
+	height: 50px;
 }
 
 .subMenu ul {

@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
             <div className="subMenu">
                 <ul>
-                    <li>mobiles</li>
+                    <li>Mobiles</li>
                     <li>Computers</li>
                     <li>Watches</li>
                     <li>Tv</li>
