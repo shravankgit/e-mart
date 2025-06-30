@@ -52,3 +52,17 @@ body{
 .subMenu ul {
 	display: inline-flex;
 }
+
+.pageSection {
+	display: grid;
+	grid-template-columns: repeat(4,300px);
+}
+
+.pageImg {
+	width: 250px;
+	height: 250px;
+}
+
+.pageImg img {
+	width: 100px;
+}

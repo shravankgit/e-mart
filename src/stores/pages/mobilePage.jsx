@@ -3,14 +3,22 @@ import React from 'react'
 import { mobileData } from '../data/mobiles'
 
 
-const mobilePage = () => {
+const MobilePage = () => {
   return (
     <div className='pageSection'>
-        {mobileData.map(()=>{
+        {mobileData.map((item)=>{
+          return(
+            <div>
+              <div className='pageImg'>
+                <img src={item.image} alt=''/>
+                
+              </div>
+            </div>
+          )
           
         })}
     </div>
   )
 }
 
-export default mobilePage
+export default MobilePage

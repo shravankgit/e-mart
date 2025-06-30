@@ -4,6 +4,7 @@ import { Routes,Route } from 'react-router-dom'
 import './App.css'
 import LandingPage from './stores/pages/LandingPage'
 import Mobiles from './stores/components/Mobiles'
+import MobilePage from './stores/pages/mobilePage'
 
 
 
