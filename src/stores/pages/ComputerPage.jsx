@@ -1,15 +1,14 @@
 
 import React from 'react'
-import { mobileData } from '../data/mobiles'
+import { computerData } from '../data/computers'
 import Navbar from '../components/Navbar'
 
-
-const MobilePage = () => {
+const ComputerPage = () => {
   return (
     <>
     <Navbar />
     <div className='pageSection'>
-        {mobileData.map((item)=>{
+        {computerData.map((item)=>{
           return(
             <div>
               <div className='pageImg'>
@@ -25,7 +24,8 @@ const MobilePage = () => {
     </div>
     
     </>
+    
   )
 }
 
-export default MobilePage
+export default ComputerPage

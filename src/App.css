@@ -15,7 +15,7 @@ body{
 	justify-content: space-between;
 	background-color: black;
 	color: white;
-	/* height: 80px; */
+	height: 80px;
 
 }
 
@@ -56,6 +56,7 @@ body{
 .pageSection {
 	display: grid;
 	grid-template-columns: repeat(4,300px);
+	gap: 10px;
 }
 
 .pageImg {
@@ -64,5 +65,5 @@ body{
 }
 
 .pageImg img {
-	width: 100px;
+	width: 150px;
 }

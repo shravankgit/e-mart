@@ -1,15 +1,14 @@
 
 import React from 'react'
-import { mobileData } from '../data/mobiles'
+import { watchData } from '../data/watch'
 import Navbar from '../components/Navbar'
 
-
-const MobilePage = () => {
+const WatchesPage = () => {
   return (
     <>
     <Navbar />
     <div className='pageSection'>
-        {mobileData.map((item)=>{
+        {watchData.map((item)=>{
           return(
             <div>
               <div className='pageImg'>
@@ -28,4 +27,4 @@ const MobilePage = () => {
   )
 }
 
-export default MobilePage
+export default WatchesPage

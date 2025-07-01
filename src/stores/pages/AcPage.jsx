@@ -1,15 +1,15 @@
 
 import React from 'react'
-import { mobileData } from '../data/mobiles'
+import { acData } from '../data/ac' 
 import Navbar from '../components/Navbar'
 
 
-const MobilePage = () => {
+const AcPage = () => {
   return (
-    <>
+   <>
     <Navbar />
     <div className='pageSection'>
-        {mobileData.map((item)=>{
+        {acData.map((item)=>{
           return(
             <div>
               <div className='pageImg'>
@@ -28,4 +28,4 @@ const MobilePage = () => {
   )
 }
 
-export default MobilePage
+export default AcPage

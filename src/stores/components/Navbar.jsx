@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
     return (
@@ -23,14 +25,28 @@ const Navbar = () => {
             </div>
             <div className="subMenu">
                 <ul>
-                    <li>Mobiles</li>
-                    <li>Computers</li>
-                    <li>Watches</li>
-                    <li>Tv</li>
-                    <li>Ac</li>
-                    <li>Woman Dressing</li>
+                    <Link to='/mobiles'>
+                        <li>Mobiles</li>
+                    </Link>
+                    <Link to='/computers'>
+                        <li>Computers</li>
+                    </Link>
+                    <Link to='/watches'>
+                        <li>Watches</li>
+                    </Link>
+                    <Link to='/Tv'>
+                        <li>Tv</li>
+                    </Link>
+                    <Link to='/Ac'>
+                        <li>Ac</li>
+                    </Link>
+                    <Link to='/Woman'>
+                        <li>Woman Dressing</li>
+                    </Link>
+
+
                 </ul>
-                
+
             </div>
         </>
     )

@@ -1,22 +1,21 @@
 
 import React from 'react'
-import { mobileData } from '../data/mobiles'
+import { womanData } from '../data/woman'
 import Navbar from '../components/Navbar'
 
-
-const MobilePage = () => {
+const WomanPage = () => {
   return (
     <>
     <Navbar />
     <div className='pageSection'>
-        {mobileData.map((item)=>{
+        {womanData.map((item)=>{
           return(
             <div>
               <div className='pageImg'>
                 <img src={item.image} alt=''/>
               </div>
               <div className='proModel'>
-                  {item.company},{item.model}
+                  {item.brand},{item.model}
               </div>
             </div>
           )
@@ -28,4 +27,4 @@ const MobilePage = () => {
   )
 }
 
-export default MobilePage
+export default WomanPage

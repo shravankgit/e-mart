@@ -1,15 +1,14 @@
 
 import React from 'react'
-import { mobileData } from '../data/mobiles'
+import { tvData } from '../data/tv'
 import Navbar from '../components/Navbar'
 
-
-const MobilePage = () => {
+const TvPage = () => {
   return (
     <>
     <Navbar />
     <div className='pageSection'>
-        {mobileData.map((item)=>{
+        {tvData.map((item)=>{
           return(
             <div>
               <div className='pageImg'>
@@ -28,4 +27,4 @@ const MobilePage = () => {
   )
 }
 
-export default MobilePage
+export default TvPage
