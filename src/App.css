@@ -9,19 +9,45 @@ body{
 	background-color: aliceblue;
 }
 
+.proSection {
+	display: flex;
+	background-color: white;
+}
+
 .navSection {
 	border: 20px solid black;
 	display: flex;
+	width: 100%;
+	min-width: 100vw;
 	justify-content: space-between;
 	background-color: black;
 	color: white;
 	height: 80px;
-
+	align-items: center;
+	padding: 0px 50px;
 }
 
-.proSection {
+.user {
 	display: flex;
-	background-color: white;
+	width: 20%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.serch {
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 100%;
+}
+.serch input{
+	width: 80%;
+	height: 2rem;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-weight: 400;
+	font-size: medium;
 }
 
 .imageBox {
@@ -41,6 +67,7 @@ body{
 	list-style: none;
 	margin: 26px;
 	margin-top: 10px;
+	cursor: pointer;
 }
 
 .subMenu {
@@ -65,5 +92,18 @@ body{
 }
 
 .pageImg img {
-	width: 150px;
+	width: 100%;
+}
+
+.ind-image {
+	width: 500px;
+	height: 500px;
+}
+
+.ind-section {
+	display: flex;
+}
+
+.ind-image img {
+	width: 100%;
 }
