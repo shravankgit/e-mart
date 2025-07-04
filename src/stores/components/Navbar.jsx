@@ -1,12 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useCart } from '../context/CartContext'
+
+
 
 
 const Navbar = () => {
+
+    const { cartItems, addToCart } = useCart()
+
+
     return (
         <>
             <div className='navSection'>
-                <div className="title">
+                <div className="navBarMainClass">
                     <Link to='/'>
                         <h2>E-Mart</h2>
                     </Link>
@@ -17,8 +24,17 @@ const Navbar = () => {
                 </div>
                 <div className="user">
                     <div className="user-detail">SignIN/SignUp</div>
+
+                </div>
+                <div className="navBarMainClass">
                     <Link to='/cart'>
-                        <div className="cart"> Cart</div>
+                        <div className="cart"> Cart (
+
+                            <span>
+                                {cartItems.length}
+                            </span>
+                            )
+                        </div>
                     </Link>
                 </div>
 

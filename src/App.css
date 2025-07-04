@@ -147,7 +147,7 @@ body{
 	gap: 8px;
 }
 
-.title a {
+.navBarMainClass a {
   text-decoration: none;
   color: #ded7b3;
   font-weight: bold;
@@ -155,7 +155,7 @@ body{
   transition: color 0.2s;
 }
 
-.title a:hover {
+.navBarMainClass a:hover {
   color: #ff9100;
   text-decoration: underline;
 }
@@ -174,8 +174,15 @@ body{
   background-color: #ff6f00;
 }
 
+/* ul li{
+	color: white;
+} */
 
-
+.cartItemsEmpty{
+	display:grid;
+	justify-content: center;
+	font-weight: bold;
+}
 
 
 
