@@ -7,6 +7,7 @@
 }
 body{
 	background-color: aliceblue;
+	overflow-x: hidden;
 }
 
 .proSection {
@@ -129,12 +130,34 @@ body{
 }
 
 .pro-selected {
-	width: 30%;
-	border: 1px solid black ;
+	width: 40%;
+	border: 1px solid black;
+	padding: 20px;
+	min-height: 400px;
+	background-color: #f8f9fa;
 }
 
 .pro-input input {
 	margin: 5px;
+}
+
+.pro-input label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.title a {
+  text-decoration: none;
+  color: #ded7b3;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.title a:hover {
+  color: #ff9100;
+  text-decoration: underline;
 }
 
 

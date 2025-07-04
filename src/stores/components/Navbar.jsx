@@ -7,7 +7,9 @@ const Navbar = () => {
         <>
             <div className='navSection'>
                 <div className="title">
-                    <h2>E-Mart</h2>
+                    <Link to='/'>
+                        <h2>E-Mart</h2>
+                    </Link>
                 </div>
 
                 <div className="search">
