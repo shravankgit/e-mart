@@ -42,7 +42,7 @@ const MobileSingle = () => {
                             {product.description}
                         </p>
                     </div>
-                    <button onClick={()=>addToCart(product)}>Add to Cart</button>
+                    <button className='add-to-cart-btn' onClick={()=>addToCart(product)}>Add to Cart</button>
                 </div>
             </div>
 

@@ -160,6 +160,20 @@ body{
   text-decoration: underline;
 }
 
+.add-to-cart-btn {
+  background-color: #ff9100;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.add-to-cart-btn:hover {
+  background-color: #ff6f00;
+}
+
 
 
 
