@@ -17,9 +17,9 @@ const Navbar = () => {
                 </div>
                 <div className="user">
                     <div className="user-detail">SignIN/SignUp</div>
-                    <link to='/cart'>
+                    <Link to='/cart'>
                         <div className="cart"> Cart</div>
-                    </link>
+                    </Link>
                 </div>
 
             </div>
