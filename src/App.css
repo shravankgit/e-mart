@@ -35,7 +35,7 @@ body{
 	align-items: center;
 }
 
-/* .serch {
+.serch {
 	width: 30%;
 	display: flex;
 	align-items: center;
@@ -49,7 +49,7 @@ body{
 	padding-left: 10px;
 	font-weight: 400;
 	font-size: medium;
-} */
+}
 
 .imageBox {
 	width: 80%;

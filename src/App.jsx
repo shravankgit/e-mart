@@ -11,6 +11,7 @@ import TvPage from './stores/pages/TvPage'
 import AcPage from './stores/pages/AcPage'
 import WomanPage from './stores/pages/WomanPage'
 import MobileSingle from './singles/MobileSingle'
+import UserCart from './stores/UserCart'
 
 
 
@@ -27,7 +28,7 @@ const App = () => {
         <Route path='/ac' element={<AcPage />} />
         <Route path='/woman' element={<WomanPage />} />
         <Route path='/mobiles/:id' element={<MobileSingle />} />
-
+      <Route path='/cart' element = {<UserCart />} />
 
       </Routes>
 

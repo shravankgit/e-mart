@@ -6,10 +6,13 @@ import { mobileData } from '../stores/data/mobiles'
 import { useParams } from 'react-router-dom'
 import Navbar from '../stores/components/Navbar'
 
+import { useCart } from '../stores/context/CartContext'
 
 const MobileSingle = () => {
 
     const { id } = useParams()
+    
+    const {addToCart, cartItems} = useCart()
 
     const product = mobileData.find((item) => item.id === id)
 
@@ -39,7 +42,7 @@ const MobileSingle = () => {
                             {product.description}
                         </p>
                     </div>
-                    <button>Add to Cart</button>
+                    <button onClick={()=>addToCart(product)}>Add to Cart</button>
                 </div>
             </div>
 
