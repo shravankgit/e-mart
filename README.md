@@ -13,3 +13,30 @@ If you are developing a production application, we recommend using TypeScript wi
 # e-mart
 
 https://fonts.google.com/selection/embed
+
+
+let filteredProducts = [];
+if (selectedProduct == 0) {
+    // show all mobiles
+    filteredProducts = mobileData;
+} else {
+    selectedProduct = ["redmi", "iqoo"];
+    filteredProducts = mobileData.filter((item) => {selectedProduct.includes(item.company)})
+}
+========================
+
+let filteredProducts = selectedProduct == 0 ? mobileData : mobileData.filter((item) => {selectedProduct.includes(item.company)})
+
+
+selectedProduct = ["Apple", "Samsung", "OnePlus"];
+
+company name on the "Samsung"
+
+selectedProduct = ["Apple", "OnePlus"]
+
+selectedProduct.filter((item) => item != "Samsung")
+
+"Apple" != "Samsung" -> true
+"Samsung" != "Samsung" -> false
+"OnePlus" != "Samsung" -> true
+

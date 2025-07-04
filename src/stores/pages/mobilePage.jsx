@@ -24,6 +24,7 @@ const MobilePage = () => {
 	return (
 		<>
 			<Navbar />
+			{/* show mobile company names */}
 			<div className="fullpage">
 				<div className="pro-selected">
 					{companies.map((company) => (
@@ -39,7 +40,7 @@ const MobilePage = () => {
 						</div>
 					))}
 				</div>
-
+{/* show selected mobile information */}
 				<div className="pageSection">
 					{filteredProduct.map((item) => (
 						<div key={item.id}>
