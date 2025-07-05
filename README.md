@@ -40,3 +40,7 @@ selectedProduct.filter((item) => item != "Samsung")
 "Samsung" != "Samsung" -> false
 "OnePlus" != "Samsung" -> true
 
+npm install gh-pages --save-dev
+
+npm run build
+
