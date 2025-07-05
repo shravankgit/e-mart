@@ -184,6 +184,77 @@ body{
 	font-weight: bold;
 }
 
+@media (max-width: 600px) {
+  .proSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imageBox {
+    width: 90vw;
+    max-width: 350px;
+    margin-bottom: 16px;
+    padding: 10px;
+  }
+  .proImage {
+    width: 100%;
+  }
+  .navSection {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 10px;
+    min-width: 0;
+  }
+  .user, .search, .title {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  .search input {
+    width: 100%;
+    min-width: 0;
+  }
+  .pageSection {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .pageImg {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  .ind-image {
+    width: 100vw;
+    max-width: 350px;
+    height: auto;
+  }
+  .fullpage {
+    flex-direction: column;
+  }
+  .pro-selected {
+    width: 100%;
+    max-width: 100vw;
+    min-height: unset;
+    margin-bottom: 20px;
+  }
+  .subMenu ul {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: thin;
+  }
+  .subMenu ul li {
+    min-width: max-content;
+    margin: 10px 16px;
+    text-align: center;
+    font-size: 1.1em;
+    white-space: nowrap;
+  }
+}
+
 
 
 
